@@ -22,7 +22,7 @@ http://127.0.0.1:8000/rest/1.0/tests/v1/index
 
 http://127.0.0.1:8000/admin/
 admin
-Baidu@2022
+Bai@2022
 
 ## Git
 
