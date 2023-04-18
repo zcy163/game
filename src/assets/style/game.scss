@@ -1,0 +1,23 @@
+.game-box {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vmax;
+  height: 200vmin;
+  transform-origin: top left;
+  z-index: 1000;
+  // padding-bottom: 100px;
+}
+
+/* 竖屏 */
+@media screen and (orientation:portrait) {
+  .game-box {
+    /* 这里写竖屏样式 */
+    transform: rotate(90deg) translateY(-100vmin);
+  }
+}
+
+/* 横屏 */
+@media screen and (orientation:landscape) {
+  /* 这里写横屏样式 */
+}

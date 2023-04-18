@@ -1,0 +1,30 @@
+.block-toast {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vmax;
+  height: 100vmin;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-toast-in {
+  padding: 4px 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  color: #fff;
+}
+
+/* 竖屏 */
+@media screen and (orientation:portrait) {
+  .block-toast {
+    /* 这里写竖屏样式 */
+    transform: rotate(90deg) translate(27vmax, 58vmin);
+  }
+}
+
+/* 横屏 */
+@media screen and (orientation:landscape) {
+  /* 这里写横屏样式 */
+}

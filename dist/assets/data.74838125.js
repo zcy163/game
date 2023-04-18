@@ -1,0 +1,1 @@
+import{u as a,D as s}from"./default.97fe19b3.js";import{d as t,t as e,o,U as n,b as r,k as u,l as m,n as d,W as f}from"./index.99533025.js";const i=t({...{components:{Default:s}},__name:"data",setup(s){f();const t=a(),i=e();return o((()=>{if(!i.token)return n.push({name:"adminLogin"})})),(a,s)=>(r(),u(m(d(t).state.layoutMode)))}});export{i as default};
