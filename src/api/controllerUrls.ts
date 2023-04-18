@@ -1,0 +1,10 @@
+export const admin = '/rest/1.0/admin/v1/'
+export const userUser = '/rest/1.0/user/v1/'
+
+export const gamesPrize = '/rest/1.0/games/v1/prize/'
+export const gamesInit = '/rest/1.0/games/v1/init/'
+export const gamesHistory = '/rest/1.0/games/v1/history/'
+export const gamesFuture = '/rest/1.0/games/v1/future/'
+export const gamesMessage = '/rest/1.0/message/v1/'
+export const gameWithdrawal = '/rest/1.0/order/v1/'
+export const openingTimeUrl = '/rest/1.0/games/v1/opening/time/'

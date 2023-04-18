@@ -1,0 +1,1 @@
+import{u as s,D as a}from"./default.97fe19b3.js";import{d as e,t,o,U as n,b as m,k as r,l as u,n as f,W as d}from"./index.99533025.js";const i=e({...{components:{Default:a}},__name:"message",setup(a){d();const e=s(),i=t();return o((()=>{if(!i.token)return n.push({name:"adminLogin"})})),(s,a)=>(m(),r(u(f(e).state.layoutMode)))}});export{i as default};
